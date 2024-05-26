@@ -3,13 +3,11 @@
     padding: 0;
 }
 .wrap-page{
-    border:3px solid rgb(245, 117, 117);
     width: 100%;
     height: 1800px;
     position: relative;
 }
 .header-section{
-    border:3px solid rgb(48, 35, 224);
     width: 100%;
     height: 100vh;
 }
@@ -17,7 +15,6 @@
     background: url('https://xenothemes.co.uk/specto/wp-content/uploads/sites/2/2017/07/hero-2-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    border:3px solid rgb(35, 117, 224);
     width: 100%;
     height: 95%;
     display: flex;
@@ -86,26 +83,33 @@
     cursor: pointer;
 }
 
-.header-section1{
-    border:3px solid rgb(35, 224, 114);
+.movie-section{
     width: 100%;
-    height: 130vh;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.container-header1{
-    border:3px solid rgb(224, 35, 199);
+.container-movie{
+    width: 50%;
+    height: auto;
+}
+.movie-content{
     width: 100%;
-    height: 100%;
-}
-.header-content1{
-    border: 3px solid rgb(128, 0, 111);
-    width: 100%;
-    height: 10%;
-}
-.title{
-    font-size:30px;
-    color: #fbbd61;
-    padding: 50px;
+    height: 35px;
     border-bottom: 1px solid #fbbd61 ;
-    
-
+}
+.movie{
+    margin-top: 50px;
+    font-size:25px;
+    color: #fbbd61;
+    padding-bottom: 6px;
+    width: 125px;
+    border-bottom: 3px solid #fbbd61;
+}
+.movie-list{
+    margin-top: 30px;
+    border: 1px solid red;
+    width: 100%;
+    height: 400px;
 }
