@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap-page{
+    border:3px solid rgb(245, 117, 117);
+    width: 100%;
+    height: 1800px;
+    position: relative;
+}
+.header-section{
+    border:3px solid rgb(48, 35, 224);
+    width: 100%;
+    height: 100vh;
+}
+.container-header{
+    background: url('https://xenothemes.co.uk/specto/wp-content/uploads/sites/2/2017/07/hero-2-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:3px solid rgb(35, 117, 224);
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+/* .container-header::before{
+    content: "";
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 75%);
+    left: 0;
+    top: 0;
+} */
+.header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.display-flex{
+    display: flex;
+}
+.ul-nav{
+    width: 500px;
+    display: flex;
+}
+.ul-nav > li{
+    padding: 27px 40px;
+    font-size:21px;
+    color: white;  
+    list-style: none;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+.ul-nav>li:hover{
+    color: #fbbd61;
+    border-bottom: 2px solid #fbbd61;
+}
+.color-orange{
+    color: #fbbd61;
+    display: block;
+    margin-bottom: 5px;
+}
+.logo-header{
+    font-size:30px;
+    color: white;  
+}
+.header-content{
+    margin-left: 10%;
+    width: 40%;
+    height: 40%;
+    color: white;
+}
+.title-header{
+    font-size: 58px;
+}
+.play-trailer{
+    margin-top: 25px;
+    padding: 12px 24px;
+    background: #fbbd61;
+    color: white;
+    border-radius: 30px;
+    border: unset;
+    cursor: pointer;
+}
+
+.header-section1{
+    border:3px solid rgb(35, 224, 114);
+    width: 100%;
+    height: 130vh;
+}
+.container-header1{
+    border:3px solid rgb(224, 35, 199);
+    width: 100%;
+    height: 100%;
+}
+.header-content1{
+    border: 3px solid rgb(128, 0, 111);
+    width: 100%;
+    height: 10%;
+}
+.title{
+    font-size:30px;
+    color: #fbbd61;
+    padding: 50px;
+    border-bottom: 1px solid #fbbd61 ;
+    
+
+}
